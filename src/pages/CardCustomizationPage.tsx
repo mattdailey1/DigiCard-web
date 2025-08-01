@@ -106,11 +106,6 @@ const CardCustomizationPage = () => {
     navigate(`/preview/${cardId}`);
   };
 
-  const handleSend = () => {
-    // Simulate sending the card
-    alert('Card sent successfully! 🎉');
-    navigate('/');
-  };
 
   const generateAIMessage = () => {
     // Simulate AI message generation
